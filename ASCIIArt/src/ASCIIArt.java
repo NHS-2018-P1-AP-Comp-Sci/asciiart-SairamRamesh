@@ -15,3 +15,65 @@
  */
 
 // YOUR CODE GOES HERE :)
+public class ASCIIArt {
+	
+	public static void Legs() {
+		System.out.print("         \"/\" ");
+		System.out.println("\"\\\"");
+		
+		System.out.print("        \"/\" ");
+		System.out.println("  \"\\\"");
+		
+		System.out.print("       \"/\" ");
+		System.out.println("    \"\\\"");
+		
+		System.out.print("      \"/\" ");
+		System.out.println("      \"\\\"");
+		
+		System.out.print("     \"/\" ");
+		System.out.print("        \"\\\"\n");
+	}
+	
+	public static void Feets() {
+		System.out.print(" mmmmm");
+		System.out.print("             mmmmm");
+		
+	}
+	
+	public static void upper_Body() {
+		System.out.println("         ________");
+		System.out.println("        \"|      |\"");
+		System.out.print("        \"|      |\"");
+		Legs();
+		System.out.print("     W             W");
+		
+	}
+		
+	public static void down_Body() {
+		System.out.println("\n        \"|      |\"");
+		System.out.println("        \"|______|\"----------@");
+	}
+	
+	public static void head() {
+		System.out.println("          M____M");
+		System.out.println("         (      )");
+		System.out.println("        (        )");
+		System.out.println("       (__*____*__)");
+		System.out.println("            OO     ");
+		System.out.println("       |____vv____|");
+		System.out.println("       \"(       ) \" ");
+		
+		
+	}
+	
+			
+	public static void main(String[] arg) {
+		head();
+		upper_Body();
+		down_Body();
+		Legs();
+		Feets();
+		System.out.println(" \n\nThis here is a monkey which is goofing off to the computer world.");
+		
+	}
+}
